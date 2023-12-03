@@ -1,0 +1,221 @@
+*{
+  list-style: none;
+}
+
+body{
+  background-color: rgb(252, 252, 252);
+}
+
+.App {
+  margin-top: -20px;
+  text-align: center;
+}
+
+input{
+  transition: all 0.3s;
+}
+
+.formDiv{
+  margin: 0 auto;
+  width: 300px;
+  height: 330px;
+  background-color: #fff;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
+}
+
+.formDiv input{
+  border: none;
+}
+
+.formDiv input[type=submit]{
+  transition: all 0.1s;
+  margin-top: 40px;
+  background-color: rgb(255,255,255);
+  border : 1px solid rgb(104, 177, 255);
+  color: rgb(104, 177, 255);
+  width: 260px;
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.formDiv input[type=submit]:active{
+  background-color: rgb(104, 177, 255);
+  border : 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.formDiv input[type=text], textarea{
+  width: 230px;
+  margin : 15px auto;
+  border : none;
+  border-bottom: 1px solid rgb(234, 234, 234);
+  color: rgb(104, 177, 255);
+}
+
+
+label[for=date]{
+  color : rgb(104, 177, 255);
+}
+
+input[type=datetime-local]{
+  margin: 10px auto;
+  width: 190px;
+  margin-left: 5px;
+  color : rgb(104, 177, 255);
+}
+input::placeholder , textarea::placeholder{
+  color : rgb(234, 234, 234);
+}
+
+#list{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+@media all and (min-width:768px) and (max-width:1920px) { 
+  .block{
+    margin: 0 auto;
+    transition: all 0.5s;
+    width: 350px;
+    height: 40px;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow:hidden;
+    position: relative;
+    z-index: 1;
+  }
+
+  
+  .blockTop{
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    position:sticky;
+    top : 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+  .blockTopActive{
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position:sticky;
+    top : 0;
+    background-color: rgb(104, 177, 255);
+  }
+    
+  .blockBottom{
+    margin-top: 20px;
+    width: 350px;
+  }
+}
+
+@media all and (min-width:0px) and (max-width:767px) {
+  .block{
+    margin: 0 auto;
+    transition: all 0.5s;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow:hidden;
+    position: relative;
+    z-index: 1;
+  }
+
+  
+  .blockTop{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position:sticky;
+    top : 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+  .blockTopActive{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position:sticky;
+    top : 0;
+    background-color: rgb(104, 177, 255);
+  }
+    
+  .blockBottom{
+    margin-top: 20px;
+    width: 100%;
+  }
+} 
+
+.check{
+  margin: 10px 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border : 1px solid rgb(104, 177, 255);
+  background-color: rgba(0, 0, 0, 0);
+  float: left;
+  cursor : pointer;
+}
+
+.blockTop span, .blockTopActive span{
+  text-align: left;
+  float: left;
+  display: block;
+  font-size: 15px;
+}
+
+.update{
+  cursor: pointer;
+  margin: 10px 20px;
+  line-height: 20px;
+  width: 60px;
+  height: 20px;
+  border: 1px solid rgb(104, 177, 255);
+  color : rgb(104, 177, 255);
+  font-size: 12px;
+  float : right;
+}
+
+
+.dateBox{
+  margin: 0 auto;
+  width: 260px;
+  height: 35px;
+  overflow: hidden;
+}
+
+.dateSlide{
+  margin-top: 0px;
+  transition: all 0.3s;
+  width: 260px;
+  height: 80px;
+}
+
+.dateBlock{
+  margin: 0 auto 10px;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  border : 1px solid rgb(104, 177, 255);
+  border-radius: 10px;
+  font-size: 13px;
+  cursor : pointer;
+}
+
+.updateForm{
+  border: none;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
