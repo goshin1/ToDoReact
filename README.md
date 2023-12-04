@@ -1,4 +1,4 @@
-# DiseaseMange
+# ToDo리스트
 
 ## 프로젝트 개요
 > 개발 스택 : React <br/>
