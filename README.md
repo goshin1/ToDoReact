@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# DiseaseMange
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 개요
+> 개발 스택 : React <br/>
+> 개발 기간 : 2022.12.26 ~ 2022.12.29 <br/>
+> 프로젝트 목표 :  리액트에 대한 적응 및 학습<br/>
+> 주요기능 : 해야 할 일을 기록 및 수정, 삭제가 가능한 리액트 앱<br/><br/>
 
-## Available Scripts
+### 메인 화면
+![메인화면](src/introduce/home.PNG)<br/><br/>
 
-In the project directory, you can run:
+### 기능 설명
+#### 1.등록
+![등록](src/introduce/insertTodo.gif)<br/>
+화면 중앙에 있는 폼에 해야할 일, 세부사항, 날짜를 선택한 후 ToDo를 누르면 일정이 등록됩니다.<br/><br/>
 
-### `npm start`
+#### 2.세부사항보기
+![세부사항보기](src/introduce/detailTodo.gif)<br/>
+일정을 더블 클릭하면 세부사항과 날짜를 볼 수 있습니다. 날짜는 클릭 시 현재 시를 기준으로 남은 시간을 확인할 수 있습니다.<br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 3.수정하기
+![수정하기](src/introduce/updateTodo.gif)<br/>
+일정 상단 우측에 update 버튼을 누르면 수정 폼이 나옵니다. 내용 수정 후 입력과 같이 ToDo버튼을 누르면 수정됩니다.<br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 4.삭제하기
+![삭제하기](src/introduce/deleteTodo.gif)<br/>
+일정 좌측 ○버튼을 누르면 일정이 삭제 됩니다.<br/><br/>
